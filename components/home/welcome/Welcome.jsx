@@ -21,7 +21,11 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
   return (
     <View>
       <View style={styles.container}>
-        <Text style={styles.userName}>Hello Adrian</Text>
+        <Text style={styles.welcomeMessage}>JobQuest</Text>
+        <Text>Designed to streamline your job search process. 
+           JobQuest is here to make your job hunt easier and more efficient.
+        </Text>
+
         <Text style={styles.welcomeMessage}>Find your perfect job</Text>
       </View>
 
